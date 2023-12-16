@@ -42,6 +42,19 @@ form {
     margin-bottom: 2px;
 }
 
+legend {
+    font-size: 0.8rem;
+}
+
+select {
+    width: 32%;
+    margin-right: 2px;
+    padding: 5px 0;
+    background-color: #FFF;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+
 .form-submit {
     margin: 20px 0;
     text-align: center;
