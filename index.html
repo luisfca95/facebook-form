@@ -12,10 +12,19 @@
         <h2>É rápido e fácil</h2>
         
         <form method="post" action="index.html">
-            <div>
+            <div class="double-input">
                 <input type="text" name="first_name" placeholder="Nome próprio" aria-label="Nome próprio" required>
                 <input type="text" name="last_name" placeholder="Apelido" aria-label="Apelido" required>
             </div>
+
+            <div class="large-input">
+                <input type="text" name="email_phone" placeholder="Número de telefone ou e-mail" aria-label="Número de telefone ou e-mail" required>
+            </div>
+
+            <div class="large-input">
+                <input type="password" name="password" placeholder="Palavra-passe nova" aria-label="Palavra-passe" required>
+            </div>
+
             <div class="form-submit">
                 <button type="submit" name="send">Regista-te</button>
             </div>
