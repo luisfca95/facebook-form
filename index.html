@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
     <head>
-        <meta charset=""utf-8">
+        <meta charset="utf-8">
         <title>Formulário de Registo</title>
         <link rel="stylesheet" href="style.css">
         <script src="app.js" defer></script>
@@ -67,6 +67,20 @@
                         <input type="radio" name="gender" value="P" required>
                     </label>
                 </fieldset>
+                <div id="gender-addon" class="hide">
+                    <div>
+                        <select name="pronoun" aria-label="Pronome">
+                            <option value="" disabled selected>Seleciona o teu pronome</option>
+                            <option value="1">Ela</option>
+                            <option value="2">Ele</option>
+                            <option value="6">Neutro</option>
+                        </select>
+                    </div>
+                    <p>O teu pronome é visível para todas as pessoas.</p>
+                    <div class="large-input">
+                        <input type="text" name="custom_gender" placeholder="Género (opcional)" aria-label="Género Personalizado">
+                    </div>
+                </div>
             </div>
 
             <div class="form-submit">

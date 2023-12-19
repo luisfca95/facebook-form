@@ -9,6 +9,10 @@ main {
     padding: 10px;
 }
 
+.hide{
+    display: none;
+}
+
 .logo {
     width: 15vw;
 }
@@ -68,6 +72,17 @@ select {
     border-radius: 5px;
     padding: 5px;
     margin-right: 10px;
+}
+
+.gender-selection select {
+    width: 100%;
+    margin: 8px 0;
+}
+
+.gender-selection p {
+    color: #606770;
+    margin: 0 0 4px 0;
+    font-size: 0.7rem;
 }
 
 .form-submit {
